@@ -1,0 +1,19 @@
+
+{
+    "name" : "Wrapper",
+    "identifier" : "my.plugin",
+    "version" : "1.0",
+    "description" : "Wrap everything with artboad",
+    "authorEmail" : "amaxbox@gmail.com",
+    "author" : "Andrey Maximov",
+
+    "commands" : [
+    {
+      "script" : "MyScript.js",
+      "handler" : "onRun",
+      "shortcut" : "command y",
+      "name" : "Wrapper",
+      "identifier" : "wrapper.plugin"
+    }
+  ],
+}
