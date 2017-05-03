@@ -1,6 +1,6 @@
 var onRun = function(context) {
-  var doc = context.document
 
+  var doc = context.document
   var handler = context.document.eventHandlerManager().normalHandler()
   var userSelected = handler.selectedRect()
 

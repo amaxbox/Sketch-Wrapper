@@ -9,7 +9,7 @@
 
     "commands" : [
     {
-      "script" : "MyScript.js",
+      "script" : "MyScript.cocoascript",
       "handler" : "onRun",
       "shortcut" : "command y",
       "name" : "Wrapper",
